@@ -114,7 +114,7 @@ const protect = asyncHandler(async (req, res, next) => {
 ======================= */
 
 app.get("/", (req, res) => {
-  res.send("🚀 Single Page Chat Server Running");
+  res.send("Message server is live now");
 });
 
 app.get("/health", (req, res) => {
